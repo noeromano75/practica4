@@ -15,6 +15,9 @@
 		CA8FEA9727915B3700724358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8FEA9527915B3700724358 /* LaunchScreen.storyboard */; };
 		CA8FEAA227915B3700724358 /* practica4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FEAA127915B3700724358 /* practica4Tests.swift */; };
 		CA8FEAAD27915B3700724358 /* practica4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FEAAC27915B3700724358 /* practica4UITests.swift */; };
+		CA8FEABB2791676900724358 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FEABA2791676900724358 /* ViewController2.swift */; };
+		CA8FEABD27916D7700724358 /* Empleado.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FEABC27916D7700724358 /* Empleado.swift */; };
+		CA8FEB0127924AFF00724358 /* pngwing.com.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8FEB0027924AFE00724358 /* pngwing.com.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		CA8FEAA827915B3700724358 /* practica4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practica4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8FEAAC27915B3700724358 /* practica4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practica4UITests.swift; sourceTree = "<group>"; };
 		CA8FEAAE27915B3700724358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8FEABA2791676900724358 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CA8FEABC27916D7700724358 /* Empleado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empleado.swift; sourceTree = "<group>"; };
+		CA8FEB0027924AFE00724358 /* pngwing.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngwing.com.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,13 @@
 				CA8FEA8A27915B3400724358 /* AppDelegate.swift */,
 				CA8FEA8C27915B3400724358 /* SceneDelegate.swift */,
 				CA8FEA8E27915B3400724358 /* ViewController.swift */,
+				CA8FEABC27916D7700724358 /* Empleado.swift */,
+				CA8FEABA2791676900724358 /* ViewController2.swift */,
 				CA8FEA9027915B3400724358 /* Main.storyboard */,
 				CA8FEA9327915B3700724358 /* Assets.xcassets */,
 				CA8FEA9527915B3700724358 /* LaunchScreen.storyboard */,
 				CA8FEA9827915B3700724358 /* Info.plist */,
+				CA8FEB0027924AFE00724358 /* pngwing.com.png */,
 			);
 			path = practica4;
 			sourceTree = "<group>";
@@ -233,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8FEA9727915B3700724358 /* LaunchScreen.storyboard in Resources */,
+				CA8FEB0127924AFF00724358 /* pngwing.com.png in Resources */,
 				CA8FEA9427915B3700724358 /* Assets.xcassets in Resources */,
 				CA8FEA9227915B3400724358 /* Main.storyboard in Resources */,
 			);
@@ -260,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8FEA8F27915B3400724358 /* ViewController.swift in Sources */,
+				CA8FEABB2791676900724358 /* ViewController2.swift in Sources */,
 				CA8FEA8B27915B3400724358 /* AppDelegate.swift in Sources */,
 				CA8FEA8D27915B3400724358 /* SceneDelegate.swift in Sources */,
+				CA8FEABD27916D7700724358 /* Empleado.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
